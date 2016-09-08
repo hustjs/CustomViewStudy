@@ -8,9 +8,44 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.radical.viewstudy.MainActivity">
-
-    <com.radical.viewstudy.CustomView
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:background="@drawable/selector_shape"/>
+    <com.radical.viewstudy.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+    <com.radical.viewstudy.View.ListView
+        android:id="@+id/list_of_things"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"></com.radical.viewstudy.View.ListView>
+    <Button
+        android:id="@+id/btn_viewTest"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ViewTest"/>
+
+    <Button
+        android:id="@+id/btn_viewGroupTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="ViewGroupTest" />
+
+    <Button
+        android:id="@+id/btn_waveTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="WaveViewTest" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/ring"/>
 </RelativeLayout>

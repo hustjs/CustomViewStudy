@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="Draw2D">
+        <attr name="dexampleString" format="string" />
+        <attr name="dexampleDimension" format="dimension" />
+        <attr name="dexampleColor" format="color" />
+        <attr name="dexampleDrawable" format="color|reference" />
+    </declare-styleable>
+</resources>

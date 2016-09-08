@@ -21,7 +21,7 @@ import android.widget.TextView;
  * @version 1.0
  * @since 2016-08-26
  */
-public class CustomView extends TextView {
+public class CustomTextView extends TextView {
     private int mViewWidth;
     private Paint mPaint;
     private LinearGradient mLinearGradient;
@@ -29,15 +29,15 @@ public class CustomView extends TextView {
     private float mTranslate;
     private int mRectCount;
 
-    public CustomView(Context context) {
+    public CustomTextView(Context context) {
         super(context);
     }
 
-    public CustomView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public CustomTextView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
-    public CustomView(Context context, AttributeSet attrs) {
+    public CustomTextView(Context context, AttributeSet attrs) {
 
         super(context, attrs);
     }
